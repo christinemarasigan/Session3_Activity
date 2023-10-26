@@ -1,0 +1,196 @@
+/* Universal selector */
+* {
+  font-size: 18px;
+  font-family: "Times New Roman", "Times", serif;
+}
+
+/* Tag selector */
+h3 {
+  color: orange;
+}
+
+/* ID selector */
+#intro-text {
+  line-height: 2;
+  background-color: rgb(255, 224, 224);
+}
+
+/* Class selector */
+.style-types {
+  text-decoration: underline;
+  font-family: Arial, sans-serif;
+  margin-left: 10px;
+  padding-left: 5px;
+  border-left: 2px solid orange;
+}
+
+/* Descendant selector */
+aside q {
+  background-color: orange;
+}
+
+/* Direct descendant selector */
+article > p {
+  font-weight: bold;
+}
+
+/* Grouping selector */
+h1, h2, h3 {
+  text-align: center;
+}
+
+/* Additional CSS properties */
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #999;
+}
+
+ul {
+  list-style-type: square;
+}
+
+h3 {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 10px;
+}
+
+aside {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+q {
+  background-color: #ffcccb;
+}
+
+pre {
+  color: blue !important;
+  background-color: #f0f0f0;
+  font-family: "Courier New", monospace;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Additional 20 CSS Properties */
+/* Style for header and footer */
+header, footer {
+  background-color: #0073e6;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style for article headers */
+article header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Style for main content */
+article p {
+  line-height: 1.6;
+}
+
+/* Style for unordered lists */
+ul {
+  padding: 10px;
+  border: 1px solid #999;
+  background-color: #f0f0f0;
+}
+
+/* Style for list items */
+ul li {
+  margin: 5px 0;
+}
+
+/* Style for images within articles */
+article img {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  border: 1px solid #ccc;
+}
+
+/* Style for blockquote elements */
+blockquote {
+  background-color: #f5f5f5;
+  border-left: 5px solid #0073e6;
+  margin: 10px;
+  padding: 10px;
+  font-style: italic;
+}
+
+/* Style for the "aside" element */
+aside {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Style for the "aside" element's quote */
+aside q {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Style for code elements */
+code {
+  background-color: #f9f9f9;
+  padding: 2px 4px;
+  border: 1px solid #999;
+  font-family: "Courier New", monospace;
+}
+
+/* Style for emphasized text within paragraphs */
+p em {
+  color: #ff6600;
+  font-weight: bold;
+}
+
+/* Style for hyperlinks within paragraphs */
+p a {
+  color: #0073e6;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+p a:hover {
+  color: #ff6600;
+}
+
+/* Style for lists within articles */
+article ul, article ol {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Style for list items within articles */
+article li {
+  margin: 5px 0;
+}
+
+/* Style for the "code" element within articles */
+article code {
+  background-color: #f0f0f0;
+  padding: 2px 4px;
+  border: 1px solid #ccc;
+  font-family: "Courier New", monospace;
+}
